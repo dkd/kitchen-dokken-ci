@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'rubocop'
+gem 'overcommit'
+gem 'inspec', '< 6.0'
+gem 'berkshelf'
+gem 'test-kitchen', '~> 3.6'
+gem 'kitchen-inspec', '~> 2.6'
+gem 'kitchen-docker', '>= 3.0'
+gem 'thor', '< 1.3'
+gem 'lockfile'
