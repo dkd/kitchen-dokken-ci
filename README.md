@@ -1,4 +1,4 @@
-This image based on official [ruby:3.1.6-slim-bookworm](https://hub.docker.com/layers/library/ruby/3.1.6-slim-bookworm/images/sha256-6bafc2a374cc0acd9f915429a456341dc4f9c4114c2e00127ac28ea0c3849b3c?context=explore) docker image and provides the complete test suite for running [kitchen.ci](https://kitchen.ci/) regression tests of [CHEF](https://www.chef.io/) cookbooks. One may use either local or as part of [GitLab CI](https://docs.gitlab.com/ee/ci/pipelines/) CI-Pipeline.
+This image based on official [ruby:3.X.Y-slim-bookworm](https://hub.docker.com/_/ruby/tags?name=slim-bookworm) docker image and provides the complete test suite for running [kitchen.ci](https://kitchen.ci/) regression tests of [CHEF](https://www.chef.io/) cookbooks. One may use either local or as part of [GitLab CI](https://docs.gitlab.com/ee/ci/pipelines/) CI-Pipeline.
 
 Following `gems` are additionally installed:
 
