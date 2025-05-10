@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rubocop'
 gem 'overcommit'
-gem 'inspec', '< 6.0'
+gem 'inspec', '< 6.8.25'
 gem 'berkshelf'
 gem 'test-kitchen', '~> 3.6'
 gem 'kitchen-inspec', '~> 2.6'
