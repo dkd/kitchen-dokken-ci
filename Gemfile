@@ -1,11 +1,14 @@
-source 'https://rubygems.org'
+source 'https://rubygems.org' do
+  gem 'rubocop', '~> 1.75.5'
+  gem 'overcommit', '~> 0.67.1'
+  gem 'berkshelf', '~> 8.0.15'
+  gem 'test-kitchen', '~> 3.7.0'
+  gem 'kitchen-inspec', '~> 3.0.0'
+  gem 'kitchen-docker', '~> 3.0.0'
+  gem 'thor', '< 1.3.0'
+  gem 'lockfile', '~> 2.1.3'
+end
 
-gem 'rubocop'
-gem 'overcommit'
-gem 'inspec', '< 6.8.25'
-gem 'berkshelf'
-gem 'test-kitchen', '~> 3.6'
-gem 'kitchen-inspec', '~> 3.0'
-gem 'kitchen-docker', '>= 3.0'
-gem 'thor', '< 1.3'
-gem 'lockfile'
+source 'https://rubygems.cinc.sh' do
+  gem 'cinc-auditor-bin', '~> 6.8.24'
+end
