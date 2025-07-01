@@ -1,5 +1,5 @@
 source 'https://rubygems.org' do
-  gem 'rubocop', '~> 1.75.8'
+  gem 'rubocop', '~> 1.77.0'
   gem 'overcommit', '~> 0.68.0'
   gem 'cookstyle', '~> 8.1.4'
   gem 'berkshelf', '~> 8.0.15'
