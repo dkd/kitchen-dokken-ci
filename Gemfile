@@ -1,7 +1,7 @@
 source 'https://rubygems.org' do
   gem 'rubocop', '~> 1.79.1'
   gem 'overcommit', '~> 0.68.0'
-  gem 'cookstyle', '~> 8.4.0'
+  gem 'cookstyle', '~> 8.5.0'
   gem 'berkshelf', '~> 8.0.22'
   gem 'test-kitchen', '~> 3.8.0'
   gem 'kitchen-inspec', '~> 3.0.0'
