@@ -42,10 +42,10 @@ RUN apt-get clean && apt-get autoclean && apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /var/log/*log /var/log/apt/* /var/lib/dpkg/*-old /var/cache/debconf/*-old && \
     ln -s /usr/bin/vi /usr/bin/vim
 
-COPY vendor /vendor
-RUN cd /vendor/kitchen-dokken/ && \
-    gem build kitchen-dokken.gemspec -o kitchen-dokken-2.20.7.gem && \
-    gem install kitchen-dokken-2.20.7.gem --ignore-dependencies
+#COPY vendor /vendor
+#RUN cd /vendor/kitchen-dokken/ && \
+#    gem build kitchen-dokken.gemspec -o kitchen-dokken-2.20.7.gem && \
+#    gem install kitchen-dokken-2.20.7.gem --ignore-dependencies
 COPY Gemfile /Gemfile
 RUN bundle config set --global no_document true && bundle install
 
