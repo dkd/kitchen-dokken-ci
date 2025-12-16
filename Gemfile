@@ -6,7 +6,7 @@ source 'https://rubygems.org' do
   gem 'test-kitchen', '~> 3.9.0'
   gem 'kitchen-inspec', '~> 3.0.0'
   gem 'kitchen-docker', '~> 3.0.0'
-  gem 'kitchen-dokken', '~> 2.21.1'
+  gem 'kitchen-dokken', '~> 2.22.0'
   gem 'thor', '< 1.4.1'
   gem 'lockfile', '~> 2.1.3'
 end
