@@ -1,4 +1,4 @@
-FROM ruby:3.4.7-slim-bookworm@sha256:3a51cff183b57f8686c370e05fe064598b5ecf93cab52a96beec9700bf37317c
+FROM ruby:4.0.1-slim-bookworm@sha256:9b66d16a5386d2a71849ac9f77b28cdd2db0e5d7c79bbefb2562d2a180ad3875
 LABEL maintainer="Ivan Golman <ivan.golman@dkd.de>, dkd Internet Service GmbH"
 
 ENV LANG=en_US.UTF-8 \
