@@ -1,10 +1,10 @@
 source 'https://rubygems.org' do
-  gem 'rubocop', '~> 1.81.0'
+  gem 'rubocop', '~> 1.84.2'
   gem 'overcommit', '~> 0.68.0'
-  gem 'cookstyle', '~> 8.5.0'
+  gem 'cookstyle', '~> 8.6.4'
   gem 'berkshelf', '~> 8.0.22'
   gem 'test-kitchen', '~> 3.9.0'
-  gem 'kitchen-inspec', '~> 3.0.0'
+  gem 'kitchen-inspec', '~> 3.1.0'
   gem 'kitchen-docker', '~> 3.0.0'
   gem 'kitchen-dokken', '~> 2.22.0'
   gem 'thor', '< 1.4.1'
