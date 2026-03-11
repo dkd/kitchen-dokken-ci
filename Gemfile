@@ -12,7 +12,7 @@ source 'https://rubygems.org' do
 end
 
 source 'https://rubygems.cinc.sh' do
-  gem 'cinc-auditor-bin', '~> 6.8.24'
+  gem 'cinc-auditor-bin', '~> 7.0.0'
   gem 'inspec', '~> 6.8.24'
   gem 'inspec-core', '~> 6.8.24'
 end
